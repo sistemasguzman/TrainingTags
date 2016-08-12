@@ -1,4 +1,5 @@
-﻿using TrainingTagCmd.Models;
+﻿using System.Collections.Generic;
+using TrainingTagCmd.Models;
 
 namespace TrainingTagCmd.Repository
 {
@@ -7,6 +8,11 @@ namespace TrainingTagCmd.Repository
         public Movie Get()
         {
             return new Movie();
+        }
+
+        public List<Movie> GetAll()
+        {
+            return new List<Movie>();
         }
     }
 }
